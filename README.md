@@ -16,7 +16,7 @@ It works with the Nottingham MIDI dataset in major or minor key.
 
 - Fill the folders train and test with MIDI files
 
-- Train a model:
+- Train a model
 ```
 > python train.py --mode=minor --batch_size=64 --is_training=True --restore_model=False
 ```
@@ -26,7 +26,7 @@ It works with the Nottingham MIDI dataset in major or minor key.
 > tensorboard --logdir=summary/minor
 ```
 
-- Harmonize the MIDI files in the test folder (collect files in output foler)
+- Harmonize the MIDI files in the test folder (collect files in output folder)
 ```
 > python test.py --mode=minor --batch_size=1 --is_training=False --restore_model=True
 ```
