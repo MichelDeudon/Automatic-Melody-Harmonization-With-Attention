@@ -29,6 +29,9 @@ It works with the Nottingham MIDI dataset in major or minor key.
 > python test.py --mode=minor --batch_size=1 --is_training=False --restore_model=True
 ```
 
+
+![run_test](./run_test.png)
+
 - Use Ableton to listen to your harmonized MIDI files
 
 ## Results
