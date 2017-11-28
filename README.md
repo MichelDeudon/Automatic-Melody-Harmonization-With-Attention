@@ -3,12 +3,14 @@
 TensorFlow implementation of a LSTM encoder decoder with attention (over a keyboard) to harmonize melodies with chords.
 It works with the Nottingham MIDI dataset in major or minor key.
 
+![ableton](./ableton.png)
 
 ## Requirements
 - Python 2.7 or 3.5
 - [TensorFlow 1.0.1](https://www.tensorflow.org/install/)
 - [tqdm](https://pypi.python.org/pypi/tqdm)
 - [midicsv](http://www.fourmilab.ch/webtools/midicsv/) - and csvmidi
+- [Albleton](https://www.ableton.com/en/products/live-lite/)
 
 ## Usage
 
@@ -42,4 +44,4 @@ It works with the Nottingham MIDI dataset in major or minor key.
 
 ## Author
 
-Michel Deudon / [@mdeudon]
+Michel Deudon
